@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resource.qrc">
+    <normaloff>:/images/resourse/images/icon.png</normaloff>:/images/resourse/images/icon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="labTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>基础标签</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="btnTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>基础按钮</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="2">
+    <widget class="QPushButton" name="dialogTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>提示框组件</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4" colspan="2">
+    <widget class="QPushButton" name="animationTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>动画组件</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="QPushButton" name="wheelTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>滑动选择器</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="timeSetTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>时间设置组件</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="navBarTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>导航栏</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="deskTopTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>简易桌面系统</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3" colspan="2">
+    <widget class="QPushButton" name="listTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>列表组件</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <widget class="QPushButton" name="databaseTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>数据库封装</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="progressBar2Test">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>双路进度条</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="digitalInputTest">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>数字输入框</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="titleBtn">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>自定义标题栏</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4" colspan="2">
+    <widget class="QPushButton" name="btn_5">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>自定义导航栏</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QPushButton" name="btn_23">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="btn_9">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="btn_8">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="btn_10">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="4">
+    <widget class="QPushButton" name="btn_11">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5" colspan="2">
+    <widget class="QPushButton" name="btn_24">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="btn_15">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="btn_13">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="btn_12">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="4">
+    <widget class="QPushButton" name="btn_14">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="5" colspan="2">
+    <widget class="QPushButton" name="d">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="btn_19">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="btn_17">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2" colspan="2">
+    <widget class="QPushButton" name="btn_16">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="4">
+    <widget class="QPushButton" name="btn_18">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="5" colspan="2">
+    <widget class="QPushButton" name="btn_22">
+     <property name="minimumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>136</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>new</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

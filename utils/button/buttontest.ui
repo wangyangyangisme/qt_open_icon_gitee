@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ButtonTest</class>
+ <widget class="QWidget" name="ButtonTest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>BaseButton:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="BaseButton" name="baseButton">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>BatteryButton:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="BatteryButton" name="batteryButton">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>SwitchButton:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="SwitchButton" name="switchButton">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>GourpButton:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="GroupButton" name="groupButton">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BatteryButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">batterybutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GroupButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">groupbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>BaseButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">basebutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">switchbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
